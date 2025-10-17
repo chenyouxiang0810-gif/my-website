@@ -1,0 +1,60 @@
+body {
+    /* 置中顯示 */
+    color: #000000;
+    /* 文字顏色 */
+    font-family: "微軟正黑體", Arial, sans-serif;
+    /* 字型 */
+    line-height: 1.6;
+    background-color: #e6fdff;
+    /* 行距 */
+    margin: 40px;
+}
+
+a:link {
+    color: blue;
+    /* 沒點過的連結 */
+}
+
+a:visited {
+    color: blue;
+    /* 點過的連結也維持藍色 */
+}
+
+a:hover {
+    color: darkblue;
+    /* 滑鼠移過去變深藍 */
+}
+
+a:active {
+    color: red;
+    /* 點擊當下變紅色 */
+}
+
+
+h1 {
+    color: darkblue;
+    /* 標題顏色 */
+    text-align: center;
+    /* 標題置中 */
+    text-shadow: 2px 2px 5px gray;
+    /* 標題陰影 */
+}
+
+h2 {
+    color: darkgreen;
+    /* 小標題顏色 */
+    margin-top: 25px;
+}
+
+p {
+    font-size: 40px;
+    /* 文字大小 */
+}
+
+table {
+    border-collapse: collapse;
+    /* 合併邊框 */
+    margin: 20px auto;
+    /* 表格置中 */
+    font-size: 24px;
+}
